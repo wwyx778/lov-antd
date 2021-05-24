@@ -1,0 +1,55 @@
+{
+  "name": "lov-antd",
+  "version": "1.0.2",
+  "description": "lov-antd",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "antd": ">=4.x.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "@types/styled-components": "^5.1.7",
+    "antd": "^4.15.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "mini-css-extract-plugin": "0.11.3",
+    "postcss-loader": "^5.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-refresh": "^0.10.0",
+    "source-map-loader": "^2.0.2",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development webpack && webpack serve --open ",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "url": "https://github.com/wwyx778/lov-antd.git"
+  },
+  "author": "Jehu",
+  "license": "MIT"
+}
